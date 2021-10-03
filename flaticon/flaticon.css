@@ -1,0 +1,32 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "flaticon";
+  src: url("./flaticon.ttf?c5e3c17e050375a1754ae787ec3e0808") format("truetype"), url("./flaticon.woff?c5e3c17e050375a1754ae787ec3e0808") format("woff"), url("./flaticon.woff2?c5e3c17e050375a1754ae787ec3e0808") format("woff2"), url("./flaticon.eot?c5e3c17e050375a1754ae787ec3e0808#iefix") format("embedded-opentype"), url("./flaticon.svg?c5e3c17e050375a1754ae787ec3e0808#flaticon") format("svg"); }
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+  font-family: flaticon !important;
+  font-style: normal;
+  font-weight: normal !important;
+  font-variant: normal;
+  text-transform: none;
+	font-size: 40px;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.flaticon-heart:before {
+  content: "";color: red; }
+
+.flaticon-24-hours:before {
+  content: ""; }
+
+.flaticon-user:before {
+  content: ""; }
+
+.flaticon-qr-code:before {
+  content: ""; }
+
+.flaticon-qr-code-1:before {
+  content: ""; }
+
+.flaticon-qr-code-2:before {
+  content: ""; }

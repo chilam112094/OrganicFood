@@ -1,0 +1,108 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Charm&family=Darker+Grotesque&display=swap');
+
+body{ font-family: 'Darker Grotesque', sans-serif; color:#333333; font-size: 20px}
+
+h1,h2{font-family: 'Charm', cursive; color:#587330}
+
+#menu .dropdown-menu{border: 2px solid #fff}
+#menu .dropdown-menu a{color: #fff; font-size: 24px;font-weight: bold;border-bottom: 1px dashed #eee}
+#menu .dropdown-menu a:hover{background-color: #D46702;}
+
+footer{background: url("../images/bg-footer.jpg") no-repeat center top;min-height: 600px;padding-top: 50px;background-size: 100% 100%}
+
+.page-title{background: url("../images/bg-blog.jpg") no-repeat center top;background-size: 100% 100%;min-height: 325px;padding-top: 80px;font-size: 20px;font-weight: bold}
+.page-gioithieu{background: url("../images/bg-gioithieu.png") no-repeat center top;background-size: 100% 100%;min-height: 325px;padding-top: 80px;font-size: 20px;font-weight: bold}
+.page-traicay{background: url("../images/bg-traicay.png") no-repeat center top;background-size: 100% 100%;min-height: 325px;padding-top: 80px;font-size: 20px;font-weight: bold;background-blend-mode: darken;background-color: rgba(0,0,0,0.20)}
+.page-raucu{background: url("../images/bg-raucu.png") no-repeat center top;background-size: 100% 100%;min-height: 325px;padding-top: 80px;font-size: 20px;font-weight: bold;background-blend-mode: darken;background-color: rgba(0,0,0,0.20)}
+.page-ngucoc{background: url("../images/bg-ngucoc.png") no-repeat center top;background-size: 100% 100%;min-height: 325px;padding-top: 80px;font-size: 20px;font-weight: bold;background-blend-mode: darken;background-color: rgba(0,0,0,0.20)}
+.page-huongdan{background: url("../images/bg-huongdan.jpg") no-repeat center top;background-size: 100% 100%;min-height: 325px;padding-top: 80px;font-size: 20px;font-weight: bold;background-blend-mode: darken;background-color: rgba(0,0,0,0.20)}
+.page-lienhe{background: url("../images/bg-lienhe.jpg") no-repeat center top;background-size: 100% 100%;min-height: 325px;padding-top: 80px;font-size: 20px;font-weight: bold;background-blend-mode: darken;background-color: rgba(0,0,0,0.20)}
+.page-dangnhap{background: url("../images/bg-dangnhap.jpg") no-repeat center top;background-size: 100% 100%;min-height: 325px;padding-top: 80px;font-size: 20px;font-weight: bold;background-blend-mode: darken;background-color: rgba(0,0,0,0.20)}
+
+.carot{background: url("../images/slider_carrot.jpg") no-repeat center top;background-size: 100% 100%;height: 542px;font-size: 18px;padding: 5.5%;}
+.carot .col-md-2{max-width: 14%;}
+
+.bg-what{background: url("../images/slider_carrot.jpg") no-repeat center top;height: 542px;background-size: 100% 100%}
+.bg-xanh50{background-color: rgba(88,115,47,0.80);color: #fff;transition: all 1s;min-height: 450px}
+.bg-xanh50:hover{border: 1px solid #f2f0eb}
+@media(max-width:600px){
+	#s-w{display: none}
+}
+
+aside .nav-link{font-size: 24px;border-bottom: 1px dotted #ddd;font-weight: bold}
+
+#carouselExampleCaptions h1{color: #6DB700; font-size: 40px;}
+#carouselExampleCaptions h1 span{font-size: 80px;color: #fff;font-family: 'Darker Grotesque';}
+
+@media(max-width:1200px){
+	.carousel-caption{width: 70%;left: 30%;top: 20px;height: auto}
+	#carouselExampleCaptions h1{color: #6DB700; font-size: 20px;}
+#carouselExampleCaptions h1 span{font-size: 40px;color: #fff;font-family: 'Darker Grotesque';}
+}
+
+@media(max-width: 576px){
+	.carousel-caption{width: 60%;left: 30%;top: -20px;height: auto}
+	#carouselExampleCaptions h1{color: #6DB700; font-size: 20px;}
+#carouselExampleCaptions h1 span{font-size: 30px;color: #fff;font-family: 'Darker Grotesque';}
+	.carousel-caption img{width: 30px;height: auto}
+	.carousel-caption p{margin: 5px;line-height: 1.2em;font-size: 0.8em}
+	.carousel-indicators{display: none}
+}
+#danhmuc1 .detail{background-color: #587330; position: absolute;width: 80%;left: 10%;bottom: -20px;border-radius: 15px;border: 2px solid #ccc;font-size: 24px;transition: all 0.5s}
+#danhmuc1 .col-md-4:hover>.detail{box-shadow: 0px 5px 10px #666;background-color: #14D650}
+
+.giatri{background-color: #F2F0EB}
+
+#blogs a:hover{color: #2E3C19;}
+#sotrang .col-6 .btn-custom{background-color: #F2F0EB;border: 1px solid #58732F;cursor: pointer}
+#sotrang .col-6 .btn-custom:focus{background-color: #58732F;} 
+#sotrang .col-6 .btn-custom:active{background-color: red}
+
+.bg-xam{background-color: #EEEEEE}
+#sptieubieu .iconmb{width: 100%;height: 100%;background-color: rgba(0,0,0,0.50);position: absolute;top: 0;left: 0;display: flex;color: #fff;align-items: center;text-align: center;justify-content: center;opacity: 0; transform: scale(0);transition:all 0.5s}
+#sptieubieu .iconmb i{cursor: pointer;margin: 0 5px;}
+#sptieubieu .iconmb i:hover{color: aqua}
+#sptieubieu .sp:hover >.iconmb{opacity: 1; transform: scale(1)}
+
+#raucu .bg-opaciti{background-color: rgba(0,0,0,0.42);position: absolute;top: 0;left: 0;width: 100%;height: 100%;opacity: 0;transform: scale(0);transition: all 0.5s}
+#raucu .hinh:hover >.bg-opaciti{transform: scale(1);opacity: 1;}
+
+#traicay .bg-opaciti{background-color: rgba(0,0,0,0.42);position: absolute;top: 0;left: 0;width: 100%;height: 100%;opacity: 0;transform: scale(0);transition: all 0.5s}
+#traicay .hinh:hover >.bg-opaciti{transform: scale(1);opacity: 1;}
+
+#ngucoc .bg-opaciti{background-color: rgba(0,0,0,0.42);position: absolute;top: 0;left: 0;width: 100%;height: 100%;opacity: 0;transform: scale(0);transition: all 0.5s}
+#ngucoc .hinh:hover >.bg-opaciti{transform: scale(1);opacity: 1;}
+
+#headingOne button:hover{color: darkgreen;text-decoration: none;}
+#huongdan .bg-xam{height: 300px;z-index: -1; top: 50px;right: 0; }
+#faqs .card{border: none;}
+#yccus .form-control {
+  display: block;
+  width: 100%;
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: 1rem 0.75rem 100px;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #58732F;
+  border-radius: 0.5rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.chinhnut .btn{padding: 10px 49%;}
+.cchinh .btn {
+  display: inline-block;width: 100%;
+  font-weight: 400;
+  color: #212529;
+  text-align: center;
+  border: 1px solid transparent;
+  padding: 0.375rem 1.15rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}

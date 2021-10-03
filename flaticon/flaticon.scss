@@ -1,0 +1,49 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?c5e3c17e050375a1754ae787ec3e0808") format("truetype"),
+url("./flaticon.woff?c5e3c17e050375a1754ae787ec3e0808") format("woff"),
+url("./flaticon.woff2?c5e3c17e050375a1754ae787ec3e0808") format("woff2"),
+url("./flaticon.eot?c5e3c17e050375a1754ae787ec3e0808#iefix") format("embedded-opentype"),
+url("./flaticon.svg?c5e3c17e050375a1754ae787ec3e0808#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "heart": "\f101",
+    "24-hours": "\f102",
+    "user": "\f103",
+    "qr-code": "\f104",
+    "qr-code-1": "\f105",
+    "qr-code-2": "\f106",
+);
+
+.flaticon-heart:before {
+    content: map-get($flaticon-map, "heart");
+}
+.flaticon-24-hours:before {
+    content: map-get($flaticon-map, "24-hours");
+}
+.flaticon-user:before {
+    content: map-get($flaticon-map, "user");
+}
+.flaticon-qr-code:before {
+    content: map-get($flaticon-map, "qr-code");
+}
+.flaticon-qr-code-1:before {
+    content: map-get($flaticon-map, "qr-code-1");
+}
+.flaticon-qr-code-2:before {
+    content: map-get($flaticon-map, "qr-code-2");
+}
